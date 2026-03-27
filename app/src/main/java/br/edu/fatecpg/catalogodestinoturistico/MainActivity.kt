@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val edtUsuario = findViewById<EditText>(R.id.editTextText2)
         val edtSenha = findViewById<EditText>(R.id.editTextText3)
         val btnEntrar = findViewById<Button>(R.id.button)
-        val txvCadastreSe = findViewById<TextView>(R.id.txv_cadastre_se)
+
 
         btnEntrar.setOnClickListener {
             val usuario = edtUsuario.text.toString()
@@ -36,9 +36,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        txvCadastreSe.setOnClickListener {
-            val intent = Intent(this, CadastroDestinoActivity::class.java)
-            startActivity(intent)
-        }
+
     }
 }

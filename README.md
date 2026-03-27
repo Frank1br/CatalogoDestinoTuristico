@@ -33,6 +33,30 @@ Aplicativo Android desenvolvido como MVP de um catálogo de destinos turísticos
 - **Lista de Destinos** — cards com botões Explorar e Excluir
 - **WebView** — abre a URL do destino dentro do próprio app
 
+## Referencias para realizar o desafio
+
+- **Listas Dinâmicas com RecyclerView: Exibindo Múltiplos Dados** - *Prof. Esp. Alessandro Paz Lima*
+- *(https://docs.google.com/document/d/11TSEt1_P9ePkDfFayDALFkZ1XUv4IOTegjGuS6-LvbE/edit?tab=t.0)*
+
+- **Navigation Component - Android Studio Tutorial** - *Stevdza-San*
+- *(https://youtu.be/DI0NIk-7cz8?si=ai6abd_60zzxhNuE)*
+
+- **Navigation Component - Android Studio Tutorial** - *Stevdza-San*
+- *(https://youtu.be/DI0NIk-7cz8?si=ai6abd_60zzxhNuE)*
+
+- **RecyclerView in Android Studio using Kotlin | Android Knowledge** - *Android Knowledge*
+- *(https://youtu.be/UDfyZLWyyVM?si=JhX1ChWe9JfzVDem)*
+
+- **RecyclerView in Android Studio using Kotlin | Android Knowledge** - *Android Knowledge*
+- *(https://www.youtube.com/watch?v=5RwUPtqUT_M)*
+
+- **Criar aplicativo Android WebView usando o Android Studio | Kotlin | Compartilhamento de código** - *Picker Soft*
+- *(https://youtu.be/UDfyZLWyyVM?si=JhX1ChWe9JfzVDem)*
+
+- **[Criar aplicativo Android WebView usando o Android Studio | Kotlin | Compartilhamento de código] (https://kotlinlang.org/docs/multiplatform/compose-navigation-routing.html)** 
+
+- **[\[Criar aplicativo Android WebView usando o Android Studio | Kotlin | Compartilhamento de código\] (https://kotlinlang.org/docs/multiplatform/compose-navigation-routing.html)] (https://hossainkhan.medium.com/clickable-link-text-for-android-textview-kotlin-extension-a36b9e03180b)** 
 
 
-<br>
+
+
