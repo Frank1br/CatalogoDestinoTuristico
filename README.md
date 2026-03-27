@@ -47,11 +47,8 @@ Aplicativo Android desenvolvido como MVP de um catálogo de destinos turísticos
 - **RecyclerView in Android Studio using Kotlin | Android Knowledge** - *Android Knowledge*
 - *(https://youtu.be/UDfyZLWyyVM?si=JhX1ChWe9JfzVDem)*
 
-- **RecyclerView in Android Studio using Kotlin | Android Knowledge** - *Android Knowledge*
-- *(https://www.youtube.com/watch?v=5RwUPtqUT_M)*
-
 - **Criar aplicativo Android WebView usando o Android Studio | Kotlin | Compartilhamento de código** - *Picker Soft*
-- *(https://youtu.be/UDfyZLWyyVM?si=JhX1ChWe9JfzVDem)*
+- *(https://www.youtube.com/watch?v=5RwUPtqUT_M))*
 
 - **[Criar aplicativo Android WebView usando o Android Studio | Kotlin | Compartilhamento de código] (https://kotlinlang.org/docs/multiplatform/compose-navigation-routing.html)** 
 
