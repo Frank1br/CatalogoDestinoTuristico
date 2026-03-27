@@ -10,6 +10,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class CadastroDestinoActivity : AppCompatActivity() {
+
+    private val destinoDao = DestinoDaoImpl()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -31,7 +34,7 @@ class CadastroDestinoActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            DestinoRepository.lista.add(Destino(nome, local, url))
+            destinoDao.adicionarDestino(Destino(nome, local, url))
             edtNome.text.clear()
             edtLocal.text.clear()
             edtUrl.text.clear()
