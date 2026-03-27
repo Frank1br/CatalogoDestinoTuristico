@@ -2,6 +2,8 @@ package br.edu.fatecpg.catalogodestinoturistico
 
 import android.os.Bundle
 import android.webkit.WebView
+import android.webkit.WebViewClient
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
@@ -12,13 +14,17 @@ class WebViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_web_view)
 
         val webView = findViewById<WebView>(R.id.webView)
-        val UrlStrind = "https://imgs.search.brave.com/CQyU3C2Q2ezdxf2qfnt3Akc14kEyHcxO-KVgEwyIkJo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnJl/ZGQuaXQvMTlzdGJz/Nm5yMjVnMS5qcGVn"
+        val btnVoltar = findViewById<Button>(R.id.btn_voltar)
+        val url = intent.getStringExtra("url") ?: "https://www.google.com/"
 
         webView.apply {
-            loadUrl(UrlStrind)
+            webViewClient = WebViewClient()
             settings.javaScriptEnabled = true
+            loadUrl(url)
         }
 
-
+        btnVoltar.setOnClickListener {
+            finish()
+        }
     }
 }

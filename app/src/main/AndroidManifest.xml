@@ -17,6 +17,9 @@
             android:name=".CadastroDestinoActivity"
             android:exported="false" />
         <activity
+            android:name=".ListaDestinosActivity"
+            android:exported="false" />
+        <activity
             android:name=".WebViewActivity"
             android:exported="false" />
         <activity
